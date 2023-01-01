@@ -1,0 +1,25 @@
+1. Описать форму и описать компонент список 
+форма c 16 урока по добавление коментариев рекламных постов
+
+2. Отправить данные на сервер и
+дождаться ответа и передать наверх родителю 
+
+3. Какой-то компонент отвечает за отрисовку 
+
+
+Важно добавить preview(картинку) ***
+
+
+fetchData() {
+        fetch(
+            `${API_URL}`
+        )
+        .then((res) => res.json())
+        .then((responceData) => {
+            this.data = [];
+            for(let i = 0; i < this.data.length; i++) {
+                responceData[i].avatarUrl = `${API_URL}/${responseData[i].avatarUrl}`
+                this.data.push(responseData[i]);
+            }
+        })
+    }
