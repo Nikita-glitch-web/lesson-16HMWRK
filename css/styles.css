@@ -68,6 +68,7 @@
   border-radius: 5%;
   background: transparent;
   font-size: 18px;
+  margin-top: 40px;
 }
 
 .delete-btn {
@@ -78,6 +79,7 @@
   background: transparent;
   font-size: 18px;
   margin-left: 30px;
+  margin-top: 40px;
 }
 
 /*# sourceMappingURL=styles.css.map */
